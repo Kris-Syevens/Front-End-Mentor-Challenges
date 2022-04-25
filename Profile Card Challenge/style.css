@@ -1,0 +1,126 @@
+:root {
+  --primary-font: "Kumbh Sans", sans-serif;
+  --font-size-name-stats: 18px;
+  --color-dark-cyan: hsl(185, 75%, 39%);
+  --color-dark-blue: hsl(229, 23%, 23%);
+  --color-gray-blue: hsl(227, 10%, 46%);
+  --color-dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-dark-cyan);
+  min-height: 100vh;
+  font-family: var(--primary-font);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-gray-blue);
+}
+
+.bg-img-top {
+  position: fixed;
+  z-index: -1;
+  bottom:40vh;
+  right: 52vw;
+}
+
+.bg-img-bottom {
+    position: fixed;
+    z-index: -1;
+    top: 40vh;
+    left: 52vw;
+}
+
+.card {
+  max-height: 500px;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 20px 10px;
+  box-shadow: 5px 15px 20px rgba(0,0,0, 0.1), -5px 15px 20px rgba(0,0,0, 0.1);
+}
+
+.top {
+  background-image: url(./images/bg-pattern-card.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 150px;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 90px 0 0;
+}
+
+.middle img {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border: 5px solid white;
+  position: absolute;
+  top: -60px;
+}
+
+.name {
+  font-weight: 700;
+  color: var(--color-dark-blue);
+  font-size: var(--font-size-name-stats);
+  margin: 0 125px;
+}
+
+.age {
+  font-weight: 400;
+  color: var(--color-gray-blue);
+}
+
+.location {
+  margin: 10px 0 30px;
+}
+
+.bottom {
+  display: flex;
+  border-top: 2px solid lightgray;
+  justify-content: space-between;
+  padding: 30px 70px;
+}
+
+.bottom-l,
+.bottom-m,
+.bottom-r {
+  text-align: center;
+}
+
+.stat-title {
+  color: var(--color-dark-blue);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.stat-sub {
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .name {
+    margin: 0 100px;
+  }
+
+  .bottom-m,
+  .bottom-r {
+    margin-left: 5px;
+  }
+}
