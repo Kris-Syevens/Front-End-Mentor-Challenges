@@ -10,7 +10,7 @@ If there are any suggestions on how I can improve my code or if you have any que
 
 ## Links
 
-- [Live](https://kris-syevens.github.io/QRCode)
+- [Live](https://kris-syevens.github.io/Front-End-Mentor-Challenges/QR-Code-Challenge)
 
 
 
