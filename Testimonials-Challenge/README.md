@@ -6,7 +6,7 @@ Needs to be updated!
 
 ## Links
 
-- [Live](https://kris-syevens.github.io/Testimonials)
+- [Live](https://kris-syevens.github.io/Front-End-Mentor-Challenges/Testimonials-Challenge)
 
 
 
