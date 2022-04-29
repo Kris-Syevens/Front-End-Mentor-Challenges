@@ -6,7 +6,7 @@
 
 ## Links
 
-- [Live](https://kris-syevens.github.io/Clipboard)
+- [Live](https://kris-syevens.github.io/Front-End-Mentor-Challenges/Clipboard-Landing-Page-Challenge)
 
 
 
