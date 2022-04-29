@@ -8,7 +8,7 @@ If there are any suggestions on how I can improve my code or if you have any que
 
 ## Links
 
-- [Live](https://kris-syevens.github.io/3Col)
+- [Live](https://kris-syevens.github.io/Front-End-Mentor-Challenges/3-Column-Challenge)
 
 
 
