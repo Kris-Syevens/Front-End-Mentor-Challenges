@@ -22,6 +22,7 @@ Not Applicable.
 
 ## Built With
 
+- JavaScript
 - HTML
 - CSS
 
