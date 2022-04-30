@@ -1,6 +1,6 @@
 <h1 align="center">Huddle Landing Page Challenge</h1>
 
-<p align="center">
+<p>
   This is a developmental project that I located on front end mentor. At this point in my journey, I'm learning JavaScript and React.js. I'm completing these "mini" projects to keep my HTML & CSS sharp.
  </p>
 
