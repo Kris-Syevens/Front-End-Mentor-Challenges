@@ -2,9 +2,7 @@
 
 <p>
   This is a developmental project that I located on frontendmenton.io. At this point in my journey, I'm mastering JavaScript and React.js. I'm completing these "mini" projects to keep my HTML & CSS sharp.
-  
-
-    </p>
+  </p>
 
 ## Links
 
