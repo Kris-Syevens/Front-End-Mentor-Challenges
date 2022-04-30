@@ -1,18 +1,44 @@
-Developmental Project: NFT
+<h1 align="center">NFT Preview Card Challenge</h1>
 
-This is a developmental project that I located on frontendmenton.io. At this point in my journey, I'm learning JavaScript and React.js. I'm completing these "mini" projects to keep my HTML & CSS sharp.
+<p>
+  This is a developmental project that I located on frontendmenton.io. At this point in my journey, I'm mastering JavaScript and React.js. I'm completing these "mini" projects to keep my HTML & CSS sharp.
+</p>
 
-Challenge - This was a challenge to replicate a simple one page website with a plain background and a card that holds an image of an NFT along with text areas icons and footer. I completed this project with relative ease.
+## Links
 
-If there are any suggestions on how I can improve my code or if you have any questions for me, please feel free to email me.
+- [Live](https://kris-syevens.github.io/Front-End-Mentor-Challenges/NFT-Preview-Card-Challenge)
 
-Respectfully,
 
-Kris
 
-UPDATE 04/02/22 - I revisited this code to see if there are any changes that I can make to enhance the code. The following changes were made:
+## Screenshots
 
-1) Revised the ALT attribute on all of the images to give a better description for accessibility optimization.
-2) HTML/CSS - Renamed classes to appropriately convention of naming by specificity.
-3) CSS - Refactored lines of style that were redundant.
-4) CSS - Added a media query for mobile.
+![Home Page](images/Preview.png)
+
+
+
+## Available Commands
+
+Not Applicable.
+
+## Built With
+
+- HTML
+- CSS
+
+## Future Updates
+
+- None planned at this time.
+
+## Author
+
+**Kris Syevens**
+
+- [Profile](https://github.com/Kris-Syevens "Kris Syevens")
+- [Email](mailto:kris@syevens.com?subject=Hi "Hi!")
+- [Website](http://syevens.com "Welcome")
+
+## 🤝 Support
+
+Contributions, issues, and feature requests are welcome!
+
+Give a ⭐️ if you like this project!
