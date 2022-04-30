@@ -1,10 +1,8 @@
-<h1 align="center">Huddle Landing Page</h1>
+<h1 align="center">Huddle Landing Page Challenge</h1>
 
 <p align="center">
   This is a developmental project that I located on front end mentor. At this point in my journey, I'm learning JavaScript and React.js. I'm completing these "mini" projects to keep my HTML & CSS sharp.
-This was a challenge to create a single page site using HTML & CSS only. I completed this project with relative ease.
-If there are any suggestions on how I can improve my code or if you have any questions for me, please feel free to email me.
-    </p>
+ </p>
 
 ## Links
 
@@ -37,7 +35,7 @@ Not Applicable.
 
 - [Profile](https://github.com/Kris-Syevens "Kris Syevens")
 - [Email](mailto:kris@syevens.com?subject=Hi "Hi!")
-- [Website](https://syevens.com "Welcome")
+- [Website](http://syevens.com "Welcome")
 
 ## 🤝 Support
 
