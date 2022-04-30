@@ -1,8 +1,44 @@
-# Developmental Project: Ratings
+<h1 align="center">Interactive Rating Challenge</h1>
 
-This is a Front End Mentor project that involves the use of JavaScript. This was a slight challenge as I had to work a little hard to refactor 
-the script to add the desired functionality. 
+<p>
+  This is a developmental project that I located on frontendmenton.io. At this point in my journey, I'm mastering JavaScript and React.js. I'm completing these "mini" projects to keep my HTML & CSS sharp.
+</p>
 
-Respectfully 
+## Links
 
-Kris
+- [Live](https://kris-syevens.github.io/Front-End-Mentor-Challenges/Interactive-Rating-Challenge)
+
+
+
+## Screenshots
+
+![Home Page](images/Preview.png)
+
+
+
+## Available Commands
+
+Not Applicable.
+
+## Built With
+
+- HTML
+- CSS
+
+## Future Updates
+
+- None planned at this time.
+
+## Author
+
+**Kris Syevens**
+
+- [Profile](https://github.com/Kris-Syevens "Kris Syevens")
+- [Email](mailto:kris@syevens.com?subject=Hi "Hi!")
+- [Website](http://syevens.com "Welcome")
+
+## 🤝 Support
+
+Contributions, issues, and feature requests are welcome!
+
+Give a ⭐️ if you like this project!
