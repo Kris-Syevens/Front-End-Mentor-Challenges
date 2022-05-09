@@ -1,12 +1,12 @@
-<h1 align="center">Profile Card Challenge</h1>
+<h1 align="center">FAQ Accordion Challenge</h1>
 
 <p>
   This is a developmental project that I located on frontendmenton.io. At this point in my journey, I'm mastering JavaScript and React.js. I'm completing these "mini" projects to keep my HTML & CSS sharp.
-</p>
+  </p>
 
 ## Links
 
-- [Live](https://kris-syevens.github.io/Front-End-Mentor-Challenges/Profile-Card-Challenge)
+- [Live](https://kris-syevens.github.io/Front-End-Mentor-Challenges/FAQ-Accordion-Challenge)
 
 
 
@@ -22,6 +22,7 @@ Not Applicable.
 
 ## Built With
 
+- JavaScript
 - HTML
 - CSS
 

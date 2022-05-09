@@ -1,13 +1,45 @@
-# Development-Project-4Card
+<h1 align="center">Four Card Feature Challenge</h1>
 
-This is a developmental project that I located on frontendmenton.io. At this point in my journey, I'm learning JavaScript and React.js. I'm completing these "mini" projects 
-to keep my HTML & CSS sharp.
+<p>
+  This is a developmental project that I located on frontendmenton.io. At this point in my journey, I'm mastering JavaScript and React.js. I'm completing these "mini" projects to keep my HTML & CSS sharp.
+  </p>
 
-Challenge - This was a challenge to replicate a simple one page website design that included 4 cards in with different positioning that required the use of flex boxes
-and flex grid. This project is mobile responsive.
+## Links
 
-If there are any suggestions on how I can improve my code or if you have any questions for me, please feel free to email me.
+- [Live](https://kris-syevens.github.io/Front-End-Mentor-Challenges/Four-Card-Feature-Challenge)
 
-Respectfully,
 
-Kris
+
+## Screenshots
+
+![Home Page](images/Preview.png)
+
+
+
+## Available Commands
+
+Not Applicable.
+
+## Built With
+
+- HTML
+- CSS
+
+## Future Updates
+
+- None planned at this time.
+
+## Author
+
+**Kris Syevens**
+
+- [Profile](https://github.com/Kris-Syevens "Kris Syevens")
+- [Email](mailto:kris@syevens.com?subject=Hi "Hi!")
+- [Website](http://syevens.com "Welcome")
+
+## 🤝 Support
+
+Contributions, issues, and feature requests are welcome!
+
+Give a ⭐️ if you like this project!
+
