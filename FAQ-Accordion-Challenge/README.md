@@ -43,3 +43,8 @@ Not Applicable.
 Contributions, issues, and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
+
+## Repo Updates
+
+05/09/22 - Refactored JS code.
+
