@@ -43,3 +43,7 @@ Not Applicable.
 Contributions, issues, and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
+
+## Repo Updates
+
+- Updated logic on submit button to not allow submission unless a rating is selected.
