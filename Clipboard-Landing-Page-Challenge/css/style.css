@@ -28,10 +28,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-size: 18px;
 }
 
 main {
-  width: 50vw;
+  width: 100vw;
   background-color: white;
   overflow: hidden;
 }
@@ -59,19 +60,20 @@ header {
 header img {
   opacity: 0.7;
   margin-bottom: 5%;
+  width: 15rem;
 }
 
 header h1 {
   margin-bottom: 2%;
-  font-size: 2.5em;
+  font-size: 4rem;
 }
 
 header p {
   margin-bottom: 4%;
-  width: 65%;
+  width: 50%;
   line-height: 1.6;
   text-align: center;
-  font-size: 1.15em;
+  font-size: 1.75rem;
 }
 
 .button-container {
@@ -86,12 +88,12 @@ header p {
 
 .ios,
 .mac {
-  padding: 1.25% 3%;
+  padding: 1% 2.75%;
   color: white;
   border: none;
   border-radius: 50px;
   margin: 1%;
-  font-size: 1em;
+  font-size: 1.5em;
   border-bottom: 3px solid rgba(0, 0, 0, 0.3);
 }
 
@@ -117,13 +119,13 @@ header p {
 }
 
 .ios:hover {
-  -webkit-box-shadow: 0 7px 20px rgba(38, 186, 164, 0.7);
-          box-shadow: 0 7px 20px rgba(38, 186, 164, 0.7);
+  -webkit-box-shadow: 0 7px 20px rgba(38, 186, 164, 0.9);
+          box-shadow: 0 7px 20px rgba(38, 186, 164, 0.9);
 }
 
 .mac:hover {
-  -webkit-box-shadow: 0 7px 20px rgba(97, 115, 255, 0.7);
-          box-shadow: 0 7px 20px rgba(97, 115, 255, 0.7);
+  -webkit-box-shadow: 0 7px 20px rgba(97, 115, 255, 0.9);
+          box-shadow: 0 7px 20px rgba(97, 115, 255, 0.9);
 }
 
 #features-1 {
@@ -143,13 +145,13 @@ header p {
 }
 
 #features-1 h2 {
-  font-size: 2em;
+  font-size: 3em;
   margin-bottom: 1%;
 }
 
 #features-1 > p {
-  font-size: 1em;
-  width: 50%;
+  font-size: 1.6em;
+  width: 45%;
   line-height: 1.6;
   text-align: center;
   margin-bottom: 5%;
@@ -186,15 +188,15 @@ header p {
 
 #features-1 #main-features-container #right-features-flex h3 {
   margin-bottom: 1%;
-  font-size: 1.25em;
+  font-size: 2.5em;
   text-align: left;
 }
 
 #features-1 #main-features-container #right-features-flex p {
-  width: 65%;
-  line-height: 1.6;
+  width: 55%;
+  line-height: 2;
   margin-bottom: 8%;
-  font-size: 0.875em;
+  font-size: 1.6em;
 }
 
 #features-2 {
@@ -215,13 +217,13 @@ header p {
 }
 
 #features-2 h2 {
-  font-size: 2em;
+  font-size: 3em;
   margin-bottom: 1%;
 }
 
 #features-2 p {
-  font-size: 1em;
-  width: 50%;
+  font-size: 1.6em;
+  width: 37%;
   line-height: 1.6;
   text-align: center;
   margin-bottom: 5%;
@@ -249,12 +251,12 @@ header p {
 }
 
 #features-3 h2 {
-  font-size: 2em;
+  font-size: 3em;
   margin-bottom: 1%;
 }
 
 #features-3 > p {
-  font-size: 1em;
+  font-size: 1.6em;
   width: 50%;
   line-height: 1.6;
   text-align: center;
@@ -304,6 +306,10 @@ header p {
           align-items: center;
 }
 
+#features-3 #sub-features-container #sub-feature-icons .icon-box img {
+  width: 75px;
+}
+
 #features-3 #sub-features-container #sub-feature-texts {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -340,14 +346,14 @@ header p {
 
 #features-3 #sub-features-container #sub-feature-texts .sub-feature-text-box h3 {
   margin: 10% 0 6%;
-  font-size: 1.25em;
+  font-size: 2.5em;
 }
 
 #features-3 #sub-features-container #sub-feature-texts .sub-feature-text-box p {
   width: 90%;
   line-height: 1.7;
   margin-bottom: 8%;
-  font-size: 0.875em;
+  font-size: 1.6em;
 }
 
 #companies-container {
@@ -384,13 +390,13 @@ header p {
 }
 
 #call-to-action-2 h2 {
-  font-size: 2em;
+  font-size: 3em;
   margin-bottom: 1%;
 }
 
 #call-to-action-2 p {
-  font-size: 1em;
-  width: 50%;
+  font-size: 1.6em;
+  width: 42%;
   line-height: 1.6;
   text-align: center;
   margin-bottom: 2%;
@@ -401,17 +407,14 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 3% 10% 2%;
+  padding: 2% 10%;
   width: 100%;
 }
 
 footer img {
-  width: 50px;
-  height: 50px;
-  margin-right: 10%;
+  width: 100px;
+  height: 100px;
+  margin: 0 15% 0 5%;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -430,10 +433,21 @@ footer #links-container .links-box {
 
 footer #links-container .links-box ul {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 120px;
 }
 
 footer #links-container .links-box ul li {
-  margin: 0 0 20%;
+  margin: 0 0 0;
 }
 
 footer #links-container .links-box ul li a {
@@ -441,6 +455,7 @@ footer #links-container .links-box ul li a {
   letter-spacing: 0.75px;
   color: #4c545d;
   font-weight: 400;
+  font-size: 2rem;
 }
 
 footer #links-container .links-box ul li a:hover {
@@ -457,10 +472,11 @@ footer #social-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 250px;
 }
 
 footer #social-container a {
-  margin-right: 25%;
+  margin-right: 25px;
 }
 
 footer #social-container a i {
@@ -592,20 +608,21 @@ footer #social-container a i:hover {
   }
   header {
     background-image: url(../images/bg-header-mobile.png);
-    padding: 35% 5%;
+    padding: 35% 10%;
   }
   header img {
     opacity: 0.7;
     margin-bottom: 20%;
+    width: 40%;
   }
   header h1 {
     margin-bottom: 5%;
-    font-size: 2em;
+    font-size: 1.85em;
   }
   header p {
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     width: 100%;
-    font-size: 1em;
+    font-size: .95em;
   }
   .button-container {
     -webkit-box-orient: vertical;
@@ -620,16 +637,16 @@ footer #social-container a i:hover {
     font-size: 1.15em;
   }
   #features-1 {
-    padding: 0 5%;
+    padding: 0 10%;
   }
   #features-1 h2 {
     font-size: 1.75em;
     margin-bottom: 3%;
   }
-  #features-1 > p {
+  #features-1 p {
     font-size: 1em;
     width: 100%;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
   }
   #features-1 #main-features-container {
     -webkit-box-orient: vertical;
@@ -671,25 +688,35 @@ footer #social-container a i:hover {
     text-align: left;
   }
   #features-1 #main-features-container #right-features-flex p {
-    width: 65%;
+    width: 90%;
     line-height: 1.6;
     margin-bottom: 8%;
     font-size: 0.875em;
   }
   #features-2 {
     margin-bottom: 15%;
+    padding: 0 10%;
+  }
+  #features-2 h2 {
+    font-size: 1.75em;
+    margin-bottom: 5%;
+  }
+  #features-2 p {
+    font-size: .95em;
+    width: 95%;
+    margin-bottom: 20%;
   }
   #features-2 img {
     width: 100%;
   }
   #features-3 {
-    padding: 5%;
+    padding: 5% 10%;
   }
   #features-3 h2 {
     font-size: 1.75em;
     margin-bottom: 5%;
   }
-  #features-3 > p {
+  #features-3 p {
     font-size: 1em;
     width: 100%;
     margin-bottom: 15%;
@@ -761,8 +788,14 @@ footer #social-container a i:hover {
   #features-3 #sub-features-container #sub-feature-texts .sub-feature-text-box .icon-box2 {
     display: block;
   }
+  #features-3 #sub-features-container #sub-feature-texts .sub-feature-text-box h3 {
+    font-size: 1.25em;
+    margin-bottom: 5%;
+  }
   #features-3 #sub-features-container #sub-feature-texts .sub-feature-text-box p {
+    font-size: .875em;
     width: 100%;
+    margin-bottom: 15%;
   }
   #companies-container {
     display: -webkit-box;
@@ -780,8 +813,8 @@ footer #social-container a i:hover {
             flex-direction: column;
   }
   #companies-container img {
-    width: 40%;
-    margin-bottom: 20%;
+    width: 45%;
+    margin-bottom: 25%;
   }
   #call-to-action-2 {
     padding: 5% 7% 10%;
@@ -812,6 +845,9 @@ footer #social-container a i:hover {
   }
   footer img {
     margin: 10% 0 15%;
+    width: 20%;
+    height: 20%;
+    opacity: 1;
   }
   footer #links-container {
     -webkit-box-pack: center;
@@ -824,16 +860,30 @@ footer #social-container a i:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
   footer #links-container .links-box {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin: 1%;
+  }
+  footer #links-container .links-box ul {
     margin: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
   }
   footer #links-container .links-box ul li {
     text-align: center;
+    -webkit-box-pack: none;
+        -ms-flex-pack: none;
+            justify-content: none;
+    height: 50px;
+  }
+  footer #links-container .links-box ul li a {
+    font-size: 1.25rem;
   }
   footer #social-container {
     display: -webkit-box;
@@ -845,8 +895,9 @@ footer #social-container a i:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin: 5% 0%;
   }
   footer #social-container a {
-    margin: 0% 20%;
+    margin: 0 20px;
   }
 }
