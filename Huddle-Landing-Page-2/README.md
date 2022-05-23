@@ -12,7 +12,7 @@
 
 ## Screenshots
 
-![Home Page](images/Preview.png)
+![Home Page](images/preview.png)
 
 
 
