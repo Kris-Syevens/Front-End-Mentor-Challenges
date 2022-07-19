@@ -5,7 +5,7 @@ This is a developmental project that I located on frontendmentor.io. At this poi
 
 ## Links
 
-- [Live](https://kris-syevens.github.io/Front-End-Mentor-Challenges/Clipboard-Landing-Page-Challenge)
+- [Live](https://kris-syevens.github.io/Front-End-Mentor-Challenges/Fylo-Landing-Page)
 
 
 
