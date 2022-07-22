@@ -241,7 +241,7 @@ header {
     display: flex;
     flex-direction: column;
 
-    h3 {
+    h2 {
       font-size: 1rem;
       margin-bottom: 1rem;
       text-align: center;
@@ -320,7 +320,7 @@ header {
 @media screen and(max-width:374px) {
   .features {
     .features-text-container {
-      h3 {
+      h2 {
         font-size: 0.875rem;
       }
       .p-1,
@@ -335,7 +335,7 @@ header {
   .features {
     padding: 2rem 4rem 5rem;
     .features-text-container {
-      h3 {
+      h2 {
         font-size: 1.25rem;
       }
       .p-1,
@@ -358,7 +358,7 @@ header {
     .features-text-container {
       width: 50%;
       text-align: left;
-      h3 {
+      h2 {
         text-align: left;
         font-size: 4.25rem;
         margin-bottom: 2.5rem;

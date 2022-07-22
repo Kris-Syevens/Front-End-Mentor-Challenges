@@ -191,7 +191,7 @@ header .bg-image-curve {
   display: flex;
   flex-direction: column;
 }
-.features .features-text-container h3 {
+.features .features-text-container h2 {
   font-size: 1rem;
   margin-bottom: 1rem;
   text-align: center;
@@ -256,7 +256,7 @@ header .bg-image-curve {
 }
 
 @media screen and (max-width: 374px) {
-  .features .features-text-container h3 {
+  .features .features-text-container h2 {
     font-size: 0.875rem;
   }
   .features .features-text-container .p-1,
@@ -268,7 +268,7 @@ header .bg-image-curve {
   .features {
     padding: 2rem 4rem 5rem;
   }
-  .features .features-text-container h3 {
+  .features .features-text-container h2 {
     font-size: 1.25rem;
   }
   .features .features-text-container .p-1,
@@ -289,7 +289,7 @@ header .bg-image-curve {
     width: 50%;
     text-align: left;
   }
-  .features .features-text-container h3 {
+  .features .features-text-container h2 {
     text-align: left;
     font-size: 4.25rem;
     margin-bottom: 2.5rem;
