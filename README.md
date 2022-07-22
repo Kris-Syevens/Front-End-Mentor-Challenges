@@ -2,6 +2,9 @@
 
 <p align="center">
   This is the GitHub pages hosted repo that contains the individual code base and live link to each Front End Mentor Challenge completed by Kris Syevens.
+      </p>
+<p align="center">  
+  *** ALL PROJECTS FORMATTED TO 1440PX FOR DESKTOP AND 375PX FOR MOBILE ***
     </p>
 
 ## Links
