@@ -1,0 +1,149 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700 */
+
+:root {
+  --bg-color-orange: hsl(31, 77%, 52%);
+  --bg-color-cyan: hsl(184, 100%, 22%);
+  --bg-color-dark-cyan: hsl(179, 100%, 13%);
+  --font-color-paragraphs-white: hsla(0, 0%, 100%, 0.75);
+  --mixed-use-color-gray: hsl(0, 0%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--mixed-use-color-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  max-width: 900px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow: hidden;
+}
+
+.card-sedans {
+  background-color: var(--bg-color-orange);
+  padding: 15%;
+  position: relative;
+}
+
+.card-suvs {
+  background-color: var(--bg-color-cyan);
+  padding: 15%;
+  position: relative;
+}
+
+.card-luxury {
+  background-color: var(--bg-color-dark-cyan);
+  padding: 15%;
+  position: relative;
+}
+
+.card-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.card-img {
+}
+
+.card-heading {
+  font-family: "Big Shoulders Display", cursive;
+  color: var(--mixed-use-color-gray);
+  font-size: 2.5em;
+  margin: 25px 0;
+  text-transform: uppercase;
+}
+
+.card-p {
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--font-color-paragraphs-white);
+  font-size: 0.9em;
+  margin-bottom: 30%;
+  line-height: 1.5em;
+}
+
+.card-button {
+  border-radius: 25px;
+  background-color: var(--mixed-use-color-gray);
+  border: none;
+  font-size: 0.85em;
+  font-family: "Lexend Deca", sans-serif;
+  padding: 15px 40px;
+  border: 2px solid white;
+}
+
+.card-sedans .card-button {
+  color: var(--bg-color-orange);
+}
+
+.card-suvs .card-button {
+  color: var(--bg-color-cyan);
+}
+
+.card-luxury .card-button {
+  color: var(--bg-color-dark-cyan);
+}
+
+.card-button:hover {
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  border: 2px solid white;
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    grid-template-columns: 1fr;
+    margin: 20px;
+    max-width: 300px;
+  }
+}

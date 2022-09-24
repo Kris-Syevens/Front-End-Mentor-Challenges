@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Display", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.bg-img {
+  background: url(./images/pattern-background-desktop.svg) left top repeat-x;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.card {
+  max-width: 420px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 1px 10px 25px hsl(245, 75%, 85%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+  margin: 70px 0;
+}
+
+.card > img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.card > h1 {
+  color: hsl(223, 47%, 23%);
+  margin: 35px 0 15px;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.card > p {
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  width: 75%;
+  font-size: 0.9em;
+}
+
+.card-price-container {
+  width: 80%;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  display: flex;
+  padding: 15px 10px;
+  margin: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-box {
+  display: flex;
+  align-items: center;
+}
+
+.left-box img {
+  transform: scale(0.75);
+  margin-right: 10px;
+}
+
+.terms h2 {
+  color: hsl(223, 47%, 23%);
+  font-size: 0.9em;
+  font-weight: 900;
+}
+
+.terms p {
+  color: hsl(224, 23%, 55%);
+  font-size: 0.9em;
+  margin-top: 3px;
+  font-weight: 500;
+}
+
+.card-price-container a {
+  color: hsl(268, 76%, 47%);
+  font-weight: 700;
+  font-size: 0.75em;
+  padding-right: 10px;
+}
+
+.card-price-container a:hover {
+  color: hsl(268, 76%, 65%);
+  text-decoration: none;
+}
+
+button {
+  width: 80%;
+  height: 50px;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  margin: 10px;
+  border: none;
+  box-shadow: 0 10px 25px rgb(201, 201, 201);
+  color: white;
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: hsl(245, 75%, 65%);
+}
+
+.card > a {
+  text-decoration: none;
+  font-size: 0.75em;
+  color: hsl(224, 23%, 55%);
+  margin: 15px 0 0 0px;
+  font-weight: 900;
+}
+
+.card > a:hover {
+  color: hsl(223, 47%, 23%);
+}

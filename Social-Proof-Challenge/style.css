@@ -1,0 +1,275 @@
+:root {
+  --primary-font: "Spartan", sans-serif;
+  --color-primary-magenta: hsl(300, 43%, 22%);
+  --color-primary-pink: hsl(333, 80%, 67%);
+  --color-neutral-dgm: hsl(303, 10%, 53%);
+  --color-neutral-lgm: hsl(300, 24%, 96%);
+  --color-neutral-white: hsl(0, 0%, 100%);
+  --font-size: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--color-neutral-white);
+  font-family: var(--primary-font);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.bg-img-top {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 50vw;
+}
+
+.bg-img-bottom {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  width: 50vw;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 1400px;
+  margin: 10px;
+}
+
+.top-container {
+  display: flex;
+  margin-bottom: 50px;
+  padding: 15px 0;
+}
+
+.top-left {
+  width: 500px;
+  margin-right: 90px;
+}
+
+h1 {
+  font-family: 700;
+  font-size: 3em;
+  color: var(--color-primary-magenta);
+  padding: 0;
+  margin: 0;
+  line-height: 1em;
+  margin-bottom: 10px;
+}
+
+.top-left p {
+  color: var(--color-neutral-dgm);
+  font-weight: 500;
+  line-height: 1.75em;
+}
+
+.top-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 600px;
+  height: 100%;
+  /* padding: 10px 0; */
+}
+
+.star {
+  margin-right: 3px;
+}
+
+.review-top,
+.review-middle,
+.review-bottom {
+  background-color: var(--color-neutral-lgm);
+  border-radius: 10px;
+  width: 500px;
+  display: flex;
+  padding: 20px;
+  margin: 7px 0;
+}
+
+.review-top {
+  align-self: flex-start;
+}
+.review-middle {
+  align-self: center;
+}
+.review-bottom {
+  align-self: flex-end;
+}
+
+.review-stars {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.review-top p,
+.review-middle p,
+.review-bottom p {
+  color: var(--color-primary-magenta);
+  font-weight: 700;
+  margin-left: 30px;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 250px;
+}
+
+.card-left,
+.card-middle,
+.card-right {
+  border-radius: 10px;
+  background-color: var(--color-primary-magenta);
+  padding: 35px;
+  width: 375px;
+  height: 225px;
+}
+
+.card-left {
+  align-self: flex-start;
+}
+
+.card-middle {
+  align-self: center;
+}
+
+.card-right {
+  align-self: flex-end;
+}
+
+.card-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 40px;
+  margin-right: 25px;
+}
+
+.name {
+  color: var(--color-neutral-white);
+  font-size: 0.75em;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.name-title {
+  color: var(--color-primary-pink);
+  font-size: 0.75em;
+  font-weight: 400;
+}
+
+.card-bottom p {
+  color: var(--color-neutral-lgm);
+  font-weight: 400;
+  font-size: 0.75em;
+  line-height: 1.75em;
+}
+
+@media screen and (min-width: 975px) and (max-width: 1250px) {
+  .main-container {
+    transform: scale(0.75);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 974px) {
+  .main-container {
+    transform: scale(0.55);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 350px;
+    margin: 25px 10px;
+  }
+
+  .top-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 350px;
+    margin-bottom: 15px;
+  }
+
+  .top-left {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    width: 350px;
+    margin-bottom: 35px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .top-left p {
+    font-size: 0.75em;
+  }
+
+  .top-right {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .review-top,
+  .review-middle,
+  .review-bottom {
+    flex-direction: column;
+    width: 350px;
+    margin: 0;
+    padding: 15px 5px;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .review-stars {
+    margin-bottom: 5px;
+  }
+
+  .star {
+    transform: scale(0.85);
+  }
+
+  .review-top p,
+  .review-middle p,
+  .review-bottom p {
+    font-size: 0.85em;
+  }
+
+  .bottom-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 350px;
+    margin-bottom: 10px;
+  }
+
+  .card-left,
+  .card-middle,
+  .card-right {
+    margin-bottom: 15px;
+    width: 350px;
+  }
+}

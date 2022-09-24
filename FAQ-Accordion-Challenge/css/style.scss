@@ -1,0 +1,244 @@
+$color-primary-text-dark-desat-blue: hsl(238, 29%, 16%);
+$color-primary-text-soft-red: hsl(14, 88%, 65%);
+
+$color-gradient-1: hsl(273, 75%, 66%);
+$color-gradient-2: hsl(240, 73%, 65%);
+
+$color-neutral-text-very-dark-grey-blue: hsl(237, 12%, 33%);
+$color-neutral-text-dark-grey-blue: hsl(240, 6%, 50%);
+
+$color-dividers-light-grey-blue: hsl(240, 5%, 91%);
+
+$font-size-body: 12px;
+$font-family-body: "Kumbh Sans", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-family-body;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: linear-gradient(
+    to bottom,
+    $color-gradient-1,
+    $color-gradient-2
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+// Main Container Component
+
+main {
+  background-color: white;
+  border-radius: 50px;
+  min-width: 65vw;
+  height: 100%;
+  position: relative;
+  display: flex;
+  box-shadow: 1px 45px 50px rgba(0, 0, 0, 0.3);
+  //   overflow: hidden;
+  margin: 10px;
+}
+
+#box-img {
+  position: absolute;
+  left: -9.5%;
+  top: 40%;
+  width: 20%;
+  z-index: 10;
+}
+
+// Left Container Component
+
+#left {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-image: url(../images/bg-pattern-desktop.svg);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position-x: 117.5%;
+  background-position-y: 65%;
+}
+
+#main-img-desk {
+  //   position: absolute;
+  width: 100%;
+  //   left: -17%;
+  //   top: 10%;
+  overflow: hidden;
+  transform: translateX(-17.5%);
+}
+
+#main-img-mob {
+  display: none;
+}
+
+// Right Container Component
+
+#right {
+  width: 50%;
+  padding: 7% 7% 7% 0;
+
+  h1 {
+    font-size: 2.25vw;
+    margin-bottom: 5%;
+  }
+
+  .faq {
+    border-bottom: 2px solid $color-dividers-light-grey-blue;
+
+    .faq-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-right: 5%;
+
+      h2 {
+        font-size: 1vw;
+        color: $color-neutral-text-very-dark-grey-blue;
+        font-weight: 400;
+        margin: 5% 0;
+      }
+
+      h2:hover {
+        color: $color-primary-text-soft-red;
+        cursor: pointer;
+      }
+
+      .active-question {
+        font-weight: 700;
+      }
+
+      .arrows {
+        width: 3%;
+      }
+
+      .active-arrow {
+        transform: rotate(180deg);
+      }
+    }
+
+    p {
+      font-size: 0.875vw;
+      color: $color-neutral-text-dark-grey-blue;
+      margin-bottom: 2.5%;
+      width: 85%;
+      line-height: 1.6;
+      display: none;
+    }
+
+    .active-answer {
+      display: block;
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 2560px) {
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    padding: 5%;
+  }
+
+  main {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 40% 0;
+
+    #box-img {
+      display: none;
+    }
+  }
+
+  #left {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/bg-pattern-mobile.svg);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 0%;
+  }
+
+  #main-img-desk {
+    display: none;
+  }
+
+  #main-img-mob {
+    display: block;
+    width: 75%;
+    transform: translateY(-40%);
+    position: absolute;
+  }
+
+  #right {
+    width: 100%;
+    padding: 0 5% 10%;
+
+    h1 {
+      font-size: 3em;
+      text-align: center;
+      margin-bottom: 5%;
+    }
+
+    .faq {
+      border-bottom: 3px solid $color-dividers-light-grey-blue;
+
+      .faq-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 5%;
+
+        .arrow {
+          width: 3%;
+        }
+
+        h2 {
+          font-size: 1em;
+          color: $color-neutral-text-very-dark-grey-blue;
+          font-weight: 400;
+          margin: 7% 0;
+        }
+
+        h2:hover {
+          color: $color-primary-text-soft-red;
+          cursor: pointer;
+        }
+      }
+
+      p {
+        font-size: 0.875em;
+        color: $color-neutral-text-dark-grey-blue;
+        margin-bottom: 5%;
+        display: none;
+        width: 85%;
+        line-height: 1.6;
+      }
+    }
+  }
+}
