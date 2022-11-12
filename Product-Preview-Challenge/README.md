@@ -1,4 +1,4 @@
-<h1 align="center">3 Column Challenge</h1>
+<h1 align="center">Product Preview Challenge</h1>
 
 <p>
   This is a developmental project that I located on frontendmentor.io. At this point in my journey, I'm mastering JavaScript and React.js. I'm completing these "mini" projects to keep my HTML & CSS sharp.
@@ -6,13 +6,13 @@
 
 ## Links
 
-- [Live](https://kris-syevens.github.io/Front-End-Mentor-Challenges/3-Column-Challenge)
+- [Live](https://kris-syevens.github.io/Front-End-Mentor-Challenges/Product-Preview-Challenge)
 
 
 
 ## Screenshots
 
-![Home Page](images/Preview.png)
+![Home Page](/Preview.png)
 
 
 
@@ -23,7 +23,7 @@ Not Applicable.
 ## Built With
 
 - HTML
-- CSS
+- CSS (Bootstrap)
 
 ## Future Updates
 
