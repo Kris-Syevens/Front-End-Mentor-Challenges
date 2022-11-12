@@ -12,7 +12,7 @@
 
 ## Screenshots
 
-![Home Page](images/Preview.png)
+![Home Page](/Preview.png)
 
 
 
@@ -23,7 +23,7 @@ Not Applicable.
 ## Built With
 
 - HTML
-- CSS
+- CSS (Bootstrap)
 
 ## Future Updates
 
